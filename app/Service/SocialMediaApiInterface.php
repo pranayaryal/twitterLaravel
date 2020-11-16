@@ -3,7 +3,7 @@
 namespace App\Service;
 
 
-interface ExternalApiInterface
+interface SocialMediaApiInterface
 {
     public function token();
 

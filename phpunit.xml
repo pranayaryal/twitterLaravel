@@ -28,5 +28,9 @@
         <server name="SESSION_DRIVER" value="array"/>
         <server name="TELESCOPE_ENABLED" value="false"/>
         <env name="TWITTER_BEARER_TOKEN" value="AAAAAAAAAAAAAAAAAAAAADoKJwEAAAAA%2FJDeg64mkoyv4IY80ea7P0He694%3DwAP5JOVS33Qjx2Syp5YiQYQiNuWSmfi54nhXXqxcUr8bilr83X"/>
+        <env name="NEXMO_FROM" value="18582866515"/>
+        <env name="NEXMO_API_KEY" value="4f73a3eb"/>
+        <env name="NEXMO_API_SECRET" value="qtvW1Twx2SDFE8xo"/>
+
     </php>
 </phpunit>

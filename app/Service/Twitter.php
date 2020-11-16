@@ -4,7 +4,7 @@ namespace App\Service;
 use Illuminate\Support\Facades\Http;
 
 
-class Twitter implements ExternalApiInterface
+class Twitter implements SocialMediaApiInterface
 {
 
     public function params()

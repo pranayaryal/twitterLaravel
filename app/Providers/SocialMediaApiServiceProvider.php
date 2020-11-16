@@ -5,7 +5,7 @@ namespace App\Providers;
 use Illuminate\Support\ServiceProvider;
 use App\Service\Twitter;
 
-class TwitterServiceProvider extends ServiceProvider
+class SocialMediaApiServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
@@ -24,6 +24,6 @@ class TwitterServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->app->bind('App\Service\ExternalApiInterface', 'App\Service\Twitter');
+        $this->app->bind('App\Service\SocialMediaApiInterface', 'App\Service\Twitter');
     }
 }

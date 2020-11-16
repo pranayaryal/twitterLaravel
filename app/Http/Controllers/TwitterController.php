@@ -5,10 +5,11 @@ namespace App\Http\Controllers;
 use App\Providers\TwitterServiceProvider;
 use Illuminate\Http\Request;
 use App\Service\ExternalApiInterface;
+use App\Service\SocialMediaApiInterface;
 
 class TwitterController extends Controller
 {
-    public function __construct(ExternalApiInterface $apiService)
+    public function __construct(SocialMediaApiInterface $apiService)
     {
         $this->apiService = $apiService;
     }
